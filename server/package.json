@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "babel index.js -d dist",
+    "test": "jest --coverage"
+  },
+  "keywords": ["Ecommerce", "MERN", "React", "Node.js", "Express", "MongoDB"],
+  "author": "Anthony Dourado",
+  "license": "ISC",
+  "description": "Full Stack MERN Ecommerce Web Application/Website",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}

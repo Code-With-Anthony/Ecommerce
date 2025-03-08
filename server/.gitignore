@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+*.out
+*.pid
+
+# Build files
+dist/
+build/
+
+# Database files
+*.sqlite
+*.sqlite-journal
+
+# Temporary files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# JWT and authentication
+*.pem
+
+# Uploads and cache
+/uploads
+/tmp
+
+# VSCode and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Docker
+docker-compose.override.yml
